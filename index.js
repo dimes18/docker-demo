@@ -2,7 +2,7 @@ var express = require('express'); //function required to respond to requests
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Hello World!');  //response when webpage is visited
 });
 
 var server = app.listen(3000, function () {
